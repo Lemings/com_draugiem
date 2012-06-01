@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="component"
+		label="COM_DRAUGIEM_FIELDSET_CONFIG_LABEL"
+		description="COM_DRAUGIEM_FIELDSET_CONFIG_DESC">
+		<field
+			id="app_key"
+			name="app_key"
+			type="text"
+			label="COM_DRAUGIEM_FIELD_APPKEY_LABEL"
+			description="COM_DRAUGIEM_FIELD_APPKEY_DESC"
+			required="true"
+			default=""
+		/>
+
+		<field
+			name="app_id"
+			required="true"
+			type="text"
+			default=""
+			label="COM_DRAUGIEM_FIELD_APPID_LABEL"
+			description="COM_DRAUGIEM_FIELD_APPID_DESC"
+		/>
+	</fieldset>
+</config>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.7" method="upgrade">
+    <name>draugiem</name>
+    <author>Edgars Piruška</author>
+    <creationDate>09/05/2011</creationDate>
+    <license>GNU/GPL</license>
+    <version>0.0.1</version>
+    <description>draugiem.lv portāla integrācijas komponents.</description>
+	
+	<files folder="components/com_draugiem">
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>draugiem.php</filename>
+        <folder>assets</folder>
+        <folder>views</folder>
+    </files>
+	
+
+    <administration>
+		<menu img="js/ThemeOffice/component.png">Draugiem</menu>
+		<files folder="administrator/com_draugiem">
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>draugiem.php</filename>
+			<folder>tables</folder>
+		</files>
+ 	</administration>
+</install>
